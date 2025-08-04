@@ -1,0 +1,268 @@
+# AZ-900 Notes (Simplified Key Points)
+
+## Introduction
+- This guide helps you prepare for the Microsoft Azure Fundamentals (AZ-900) exam.
+- It covers core Azure services, concepts, and management principles.
+- Use it for quick reference and revision.
+
+---
+
+## Core Cloud Concepts
+
+**Agility:**  
+Deploy and change resources quickly as needed.
+
+**Resource Hierarchy:**  
+Azure uses management groups, subscriptions, resource groups, and resources to organize everything.
+
+**Resource Groups:**  
+Logical containers for resources that share the same lifecycle.
+
+**Resources:**  
+Individual Azure services like VMs, storage, or databases.
+
+**Defense-in-depth:**  
+Multiple layers of security to protect data.
+
+**Elasticity:**  
+Automatically scale resources up or down based on demand.
+
+**Expenditure Models:**  
+- **OPEX:** Pay for what you use (cloud model).
+- **CAPEX:** Pay upfront for hardware (traditional IT).
+
+**Geo-distribution:**  
+Deploy apps and data globally for better performance.
+
+**High Availability:**  
+Design systems to keep running even if something fails.
+
+**Scaling:**  
+- **Horizontal:** Add/remove servers.
+- **Vertical:** Increase/decrease server power.
+
+**Public Cloud:**  
+Shared infrastructure, scalable, and accessible online.
+
+**Service Level Agreement (SLA):**  
+Azure guarantees uptime and performance for services.
+
+**Service Models:**  
+- **IaaS:** Infrastructure as a Service
+- **PaaS:** Platform as a Service
+- **SaaS:** Software as a Service
+
+**Single Sign-On (SSO):**  
+Sign in once to access multiple resources.
+
+**Virtual Network Peering:**  
+Connect two Azure networks for seamless communication.
+
+---
+
+## Azure Services (Key Points)
+
+**App Service:**  
+Host web apps, APIs, and backends without managing servers.
+
+**Bastion:**  
+Secure remote access to VMs without public IPs.
+
+**CDN:**  
+Delivers content quickly using global edge servers.
+
+**Container Instances:**  
+Run containers without managing servers.
+
+**DevOps:**  
+Tools for planning, coding, building, and deploying apps.
+
+**DevTest Labs:**  
+Quickly create and manage test environments.
+
+**Event Grid:**  
+Build event-driven apps with real-time event handling.
+
+**Functions:**  
+Run code on-demand (serverless).
+
+**Kubernetes Service (AKS):**  
+Manage containerized apps with Kubernetes.
+
+**IoT Hub:**  
+Connect and manage IoT devices.
+
+**Logic Apps:**  
+Automate workflows and integrate apps.
+
+**Resource Manager:**  
+Deploy and manage resources as a group.
+
+**Service Bus:**  
+Reliable messaging between apps.
+
+**Stream Analytics:**  
+Real-time data analysis from multiple sources.
+
+**VM Scale Sets:**  
+Automatically scale groups of VMs.
+
+**Virtual Desktop:**  
+Access Windows desktops and apps from anywhere.
+
+---
+
+## Networking
+
+**Application Gateway:**  
+Load balancer for web apps with security features.
+
+**ExpressRoute:**  
+Private connection from your data center to Azure.
+
+**Firewall:**  
+Protects your network resources.
+
+**Traffic Manager:**  
+Distributes traffic for high availability.
+
+**Virtual Network (VNet):**  
+Private network for your Azure resources.
+
+**Security Groups:**  
+Control network traffic with rules.
+
+**VPN Connections:**  
+Secure connections between Azure and on-premises.
+
+**Load Balancer:**  
+Distributes incoming traffic to VMs.
+
+---
+
+## Storage & Databases
+
+**Blob Storage:**  
+Store large amounts of unstructured data.
+
+**Access Tiers:**  
+- **Hot:** Frequent access
+- **Cool:** Infrequent access
+- **Archive:** Rare access
+
+**Cosmos DB:**  
+Globally distributed NoSQL database.
+
+**Database Migration Service:**  
+Move databases to Azure easily.
+
+**Azure Files:**  
+Cloud-based file shares accessible via SMB.
+
+---
+
+## Management & Governance
+
+**Advisor:**  
+Recommendations for optimizing resources.
+
+**Blueprint:**  
+Deploy resources with policies and roles.
+
+**Cloud Shell:**  
+Browser-based command-line for Azure.
+
+**Cost Management:**  
+Track and optimize spending.
+
+**Reservations:**  
+Save money by committing to resources.
+
+**Resource Locks:**  
+Prevent accidental changes or deletions.
+
+**ARM Templates:**  
+Automate resource deployment with code.
+
+**Support Plans:**  
+Different levels of support for different needs.
+
+**Compliance Manager:**  
+Track regulatory compliance.
+
+**Lifecycle Policy:**  
+Continuous updates and support.
+
+**Privacy Statement:**  
+How Microsoft handles your data.
+
+**Trust Central:**  
+Information about Microsoft’s security and compliance.
+
+---
+
+## Identity & Security
+
+**Authentication vs Authorization:**  
+- **AuthN:** Who you are.
+- **AuthZ:** What you can do.
+
+**Azure AD:**  
+Centralized identity and access management.
+
+**AD Connect:**  
+Sync on-premises directories with Azure AD.
+
+**AD Connect Health:**  
+Monitor directory health.
+
+**Information Protection:**  
+Classify and protect documents/emails.
+
+**Security Center:**  
+Monitor and improve security posture.
+
+**Key Vault:**  
+Store secrets, keys, and certificates securely.
+
+**Sentinel:**  
+Cloud-based security analytics and threat detection.
+
+**Service Health:**  
+Alerts for Azure service issues.
+
+**DDoS Protection:**  
+Protect against denial-of-service attacks.
+
+**Identity Protection:**  
+Detect and respond to identity risks.
+
+---
+
+## Monitoring & Reporting
+
+**Activity Log:**  
+Track operations on Azure resources.
+
+**Application Insights:**  
+Monitor app performance and usage.
+
+**Monitor:**  
+Track metrics, logs, and set alerts.
+
+---
+
+## Synapse Analytics
+
+**Azure Synapse:**  
+Unified analytics for big data and data warehousing.
+
+- **SQL:** On-demand or provisioned resources.
+- **Spark:** Integrated big data analytics.
+- **Pipelines:** Data integration.
+- **Studio:** Unified management experience.
+- **Node-based Architecture:** Scalable and parallel processing.
+
+---
+
+*Use these simplified notes for quick study and easy understanding of Azure fundamentals!*
